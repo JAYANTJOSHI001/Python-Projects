@@ -39,7 +39,9 @@ def rock_paper_and_scissors_1():
             points_of_player+=0
             points_of_computer+=0
         print("Player : {}".format(points_of_player))
-        print("Computer : {}".format(points_of_computer))    
+        print("Computer : {}".format(points_of_computer))  
+        if  points_of_player==total_number_of_points:
+            break; 
     if points_of_player==total_number_of_points:
         print("PLAYER WINS")
     else:
